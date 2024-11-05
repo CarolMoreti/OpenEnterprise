@@ -1,0 +1,23 @@
+header{
+    margin: 40px 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header a{
+    padding-left:40px;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.thin{
+    font-weight: normal;
+}
+.greeen{
+    color: var(--green);
+}
+header a:hover{
+    opacity: 70%;
+}
