@@ -1,0 +1,55 @@
+.toWork{
+    margin: 160px 56px 0 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-toWork{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-toWork h1{
+    font-size: 48px;
+    font-family: 'DM Serif Display';
+}
+.text-toWork p{
+    font-size: 18px;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 24px;
+}
+.toWork .grid-toWork{
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 23px;
+}
+.toWork .g{
+    width: 427px;
+    height: 340px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+}
+.toWork .g img{
+    width: 104px;
+    height: 88px;
+}
+.toWork .g h2{
+    margin-top: 24px;
+    font-family:'Montserrat';
+    font-size:24px;
+}
+.toWork .g p{
+    margin-top: 24px;
+    font-family:'Montserrat';
+    font-size:18px;
+    text-align: center;
+}

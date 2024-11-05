@@ -1,0 +1,43 @@
+.div-mem{
+    margin: 160px 120px 0 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.members ul{
+    list-style-type: none;
+}
+.members li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.members .left-members{
+    width: 644px;
+    height: 334px;
+}
+.members .left-members h1{
+    margin-top: 24px;
+    font-size: 48px;
+    font-family: 'DM Serif Display';
+}
+.members .left-members p{
+    margin-top: 24px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+.members .right-members .box{
+    margin-right: 120px;
+    width: 484px;
+    height: 480px;
+    border: 4px solid var(--black);
+    border-radius: 16px;
+    box-shadow: 16px 12px 0 0 var(--green);
+    padding: 32px 40px;
+    font-family: 'Cutive';
+}
+.members .right-members .box h1{
+    font-size: 32px;
+}
