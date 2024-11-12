@@ -1,0 +1,84 @@
+.improve{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+.improve h1{
+    font-size: 48px;
+    font-family: 'DM Serif Display';
+}
+.improve p{
+    font-size: 18px;
+    font-family: 'Montserrat';
+    width: 895px;
+    text-align: center;
+    margin-top: 24px;
+}
+.improve .boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 48px 0;
+}
+.improve .box{
+    width: 427px;
+    height: 240px;
+    border: none;
+    border-radius: 16px;
+    background-color: var(--white);
+    margin: 0 24px;
+    box-shadow: 1px 1px 0px 1px #000;;
+}
+.improve .box h1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin: 24px;
+}
+.improve .box .txt{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    margin: 24px;
+    text-align: justify;
+    width: 379px;
+}
+.improve .box .row-box{
+    display: flex;
+    flex-direction: row;
+    margin: 24px;
+    justify-content: space-between;
+}
+.improve .box .row-box .date{
+    color: var(--white);
+    background-color: var(--green);
+    padding:4px 8px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    border: none;
+    border-radius: 40px;
+    width: auto;
+    text-align: center;
+}
+.improve .box .row-box .mini-text{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    justify-content: flex-end;
+    text-align: end;
+}
+.improve .button{
+    width: 192px;
+    height: 64px;
+    color: var(--white);
+    background-color: var(--black);
+    border: none;
+    border-radius: 12px;
+    padding-top:22px;
+    text-align: center;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    margin-top: 16px;
+}

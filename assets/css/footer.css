@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:120px 56px 40px 56px;
+}
+footer .right-footer a{
+    margin-left: 40px;
+    text-decoration: none;
+    font-family:'Montserrat';
+    font-size:20px;
+    color:var(--black);
+}
+footer .right-footer .green-a{
+    color:var(--green);
+}

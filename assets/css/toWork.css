@@ -31,7 +31,7 @@
     width: 427px;
     height: 340px;
     border-radius: 8px;
-    box-shadow: 1px 1px 0px 0px #000;
+    box-shadow: 1px 1px 0px 1px #000;
     display: flex;
     justify-content: center;
     align-items: center;
